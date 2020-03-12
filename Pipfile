@@ -1,0 +1,23 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+dash = "*"
+dash-bootstrap-components = "*"
+gunicorn = "*"
+plotly = "*"
+pandas = "*"
+numpy = "*"
+dash-core-components = "*"
+dash-daq = "*"
+joblib = "==0.14.1"
+scikit-learn = "==0.22.1"
+category-encoders = "==2.1.0"
+plotly-express = "*"
+
+[requires]
+python_version = "3"
