@@ -13,3 +13,5 @@
  
  4.Launch the newly created env
 	pipenv shell
+
+ 5. pipenv Guide : https://realpython.com/pipenv-guide/
