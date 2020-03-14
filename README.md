@@ -1,4 +1,4 @@
-# dash-template
+# Olympic Predicions (dash-template)
 
 ## To Recreate this environment. 
 
@@ -15,3 +15,8 @@
 	pipenv shell
 
  5. pipenv Guide : https://realpython.com/pipenv-guide/
+
+
+
+ ## Guide for to deploying to AWS
+    Elastic Beanstalk Guide : https://www.phillipsj.net/posts/deploying-dash-to-elastic-beanstalk/

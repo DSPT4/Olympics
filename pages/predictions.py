@@ -14,7 +14,7 @@ from joblib import load
 from app import app
 
 #Load pipeline
-pipeline = load('./assets/final_pipeline.joblib')
+#pipeline = load('./assets/final_pipeline.joblib')
 
 
 # 2 column layout. 1st column width = 4/12
