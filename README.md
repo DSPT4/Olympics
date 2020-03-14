@@ -1,4 +1,4 @@
-# Olympic Predicions (dash-template)
+# Olympic Predicions (Plotly/Dash Appplication)
 
 ## To Recreate this environment. 
 
@@ -8,15 +8,18 @@
      conda deactivate     
      to leave a pipenv environment  type exit      
 
- 3.Create env and install packages
+ 3. Create env and install packages
 	pipenv sync
  
- 4.Launch the newly created env
+ 4. Launch the newly created env
 	pipenv shell
 
  5. pipenv Guide : https://realpython.com/pipenv-guide/
 
+## Deployment Guides
+ 
 
 
- ## Guide for to deploying to AWS
-    Elastic Beanstalk Guide : https://www.phillipsj.net/posts/deploying-dash-to-elastic-beanstalk/
+ AWS Elastic Beanstalk Guide : https://www.phillipsj.net/posts/deploying-dash-to-elastic-beanstalk/
+
+ HEROKU :  https://devcenter.heroku.com/articles/getting-started-with-python#deploy-the-app
