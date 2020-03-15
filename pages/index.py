@@ -31,7 +31,7 @@ column1 = dbc.Col(
            
             """
         ),
-        dcc.Link(dbc.Button('Predict Your Sport!', color='primary'), href='/predictions')
+        dcc.Link(dbc.Button('Predict Your Sport !!', color='primary'), href='/predictions')
     ],
     md=4,
 )
