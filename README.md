@@ -19,7 +19,7 @@
 ## Deployment Guides
  
 
-
  AWS Elastic Beanstalk Guide : https://www.phillipsj.net/posts/deploying-dash-to-elastic-beanstalk/
 
  HEROKU :  https://devcenter.heroku.com/articles/getting-started-with-python#deploy-the-app
+              (not feasabile due to Heroku Free Tier Memory limitations)
