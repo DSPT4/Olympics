@@ -48,6 +48,7 @@ footer = dbc.Container(
 )
 
 # Layout docs:
+#
 # html.Div: https://dash.plot.ly/getting-started
 # dcc.Location: https://dash.plot.ly/dash-core-components/location
 # dbc.Container: https://dash-bootstrap-components.opensource.faculty.ai/l/components/layout
