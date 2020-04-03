@@ -2,7 +2,7 @@
 
 ## To Recreate this environment. 
 
- 1. CD into folder containing pipfile.lock and python code(run.py)
+ 1. CD into folder containing pipfile.lock and python code(application.py)
 
  2. If necessary, deactivate any other environments (including conda) 
      conda deactivate     
