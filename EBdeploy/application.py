@@ -8,7 +8,6 @@ from dash.dependencies import Input, Output
 # Imports from this application
 from app import app, server
 from pages import index, predictions, insights, process
-application = server
 
 # Navbar docs: https://dash-bootstrap-components.opensource.faculty.ai/l/components/navbar
 navbar = dbc.NavbarSimple(
@@ -79,5 +78,4 @@ def display_page(pathname):
 
 # Run app server: https://dash.plot.ly/getting-started
 if __name__ == '__main__':
-    # app.run_server(debug=True, port=8080)
-    application.run(debug=True, port=8080)
+    app.run_server(debug=True)

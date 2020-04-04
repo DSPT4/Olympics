@@ -1,4 +1,4 @@
-# Olympic Predicions (Plotly/Dash Appplication)
+# Olympic Predictions (Plotly/Dash Appplication)
 
 ## To Recreate this environment. 
 
@@ -9,10 +9,10 @@
      to leave a pipenv environment  type exit      
 
  3. Create env and install packages
-	pipenv sync
+    pipenv sync
  
  4. Launch the newly created env
-	pipenv shell
+    pipenv shell
 
  5. pipenv Guide : https://realpython.com/pipenv-guide/
 
@@ -20,6 +20,8 @@
  
 
  AWS Elastic Beanstalk Guide : https://www.phillipsj.net/posts/deploying-dash-to-elastic-beanstalk/
+ 
+ https://stackoverflow.com/questions/41812497/aws-elastic-beanstalk-script-timed-out-before-returning-headers-application-p/41855346#41855346
 
  HEROKU :  https://devcenter.heroku.com/articles/getting-started-with-python#deploy-the-app
               (not feasabile due to Heroku Free Tier Memory limitations)

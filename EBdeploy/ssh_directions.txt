@@ -1,0 +1,9 @@
+ AWS-EB organizes python code under: /opt/python/
+# current app is available under /opt/python/current/app (/opt/python/current is a link to /opt/python/bundle/${bundle_version}/)
+# AWS-EB makes use of virtualenv and its location is: /opt/python/run/venv
+# If you want to use a python shell with all the environment variable you are expecting you have to:
+#    source /opt/python/run/venv/bin/activate  ---activates the virtual environ
+#    source /opt/python/current/env   --loads up all the environment variables you did define via eb settings
+
+
+ssh -i "RXid-env.pem" ec2-user@ec2-3-14-57-148.us-east-2.compute.amazonaws.com
